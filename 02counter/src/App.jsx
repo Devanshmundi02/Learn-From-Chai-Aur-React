@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function App() {
 
-  // usestate is a hook to change the value in UI in all the locations
+  // usestate is a hook to change the value in UI at all the locations
   let [value,setvalue] = useState(0)
 
   const addvalue = ()=>{
